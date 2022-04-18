@@ -147,7 +147,7 @@
 }
 
 .u-section-2 .u-layout-cell-2 {
-  min-height: 549px;
+  min-height: 595px;
 }
 
 .u-section-2 .u-container-layout-3 {
@@ -156,9 +156,9 @@
 }
 
 .u-section-2 .u-group-2 {
-  width: 320px;
-  min-height: 238px;
-  margin: 11px auto 0 114px;
+  width: 442px;
+  min-height: 270px;
+  margin: 11px 83px 0 63px;
 }
 
 .u-section-2 .u-container-layout-4 {
@@ -183,6 +183,7 @@
 .u-section-2 .u-text-3 {
   font-family: "Noto Serif TC";
   text-align: center;
+  font-size: 0.875rem;
   margin: 6px auto 0;
 }
 
@@ -190,7 +191,7 @@
   font-size: 1rem;
   font-family: "Noto Serif TC";
   font-weight: 600;
-  margin: 14px auto 0 0;
+  margin: 0;
 }
 
 .u-section-2 .u-layout-wrap-2 {
@@ -306,7 +307,7 @@
   }
 
   .u-section-2 .u-layout-cell-2 {
-    min-height: 453px;
+    min-height: 491px;
   }
 
   .u-section-2 .u-container-layout-3 {
@@ -314,6 +315,7 @@
   }
 
   .u-section-2 .u-group-2 {
+    margin-right: 30px;
     margin-left: 106px;
   }
 
@@ -371,6 +373,8 @@
   }
 
   .u-section-2 .u-group-2 {
+    width: 364px;
+    margin-right: 0;
     margin-left: 20px;
   }
 
@@ -471,6 +475,7 @@
   }
 
   .u-section-2 .u-group-2 {
+    width: 330px;
     margin-left: 7px;
   }
 
@@ -1768,7 +1773,7 @@
 
 .u-section-8 .u-group-1 {
   width: 694px;
-  min-height: 153px;
+  min-height: 225px;
   margin: 34px auto 0;
 }
 
@@ -1791,7 +1796,7 @@
 .u-section-8 .u-text-4 {
   font-size: 1rem;
   text-align: left;
-  margin: 4px 440px 0 12px;
+  margin: 4px 416px 0 12px;
 }
 
 .u-section-8 .u-icon-1 {
@@ -1811,7 +1816,7 @@
 .u-section-8 .u-text-5 {
   font-size: 1rem;
   text-align: left;
-  margin: -105px 12px 0 415px;
+  margin: -155px 12px 0 415px;
 }
 
 .u-section-8 .u-icon-5 {
@@ -1876,7 +1881,7 @@
   }
 
   .u-section-8 .u-text-4 {
-    margin-right: 298px;
+    margin-right: 274px;
     margin-left: 0;
   }
 
