@@ -1,5 +1,5 @@
  .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/pic_1-30.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/pic_1.jpg");
   background-position: 50% 50%;
 }
 
@@ -52,6 +52,11 @@
   height: 22px;
 }
 
+.u-section-1 .u-btn-1 {
+  background-image: none;
+  padding: 0;
+}
+
 .u-section-1 .u-layout-cell-2 {
   min-height: 296px;
 }
@@ -64,7 +69,7 @@
   margin: 0;
 }
 
-.u-section-1 .u-btn-1 {
+.u-section-1 .u-btn-2 {
   border-style: none;
 }
 
