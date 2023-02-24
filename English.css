@@ -240,8 +240,23 @@
     width: 290px;
   }
 
+  .u-section-2 .u-layout-cell-1 {
+    min-height: 440px;
+  }
+
+  .u-section-2 .u-text-1 {
+    width: auto;
+    margin-top: 0;
+  }
+
   .u-section-2 .u-text-2 {
     font-size: 2.25rem;
+    width: auto;
+  }
+
+  .u-section-2 .u-text-3 {
+    width: auto;
+    margin-top: 20px;
   }
 
   .u-section-2 .u-image-1 {
