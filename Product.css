@@ -844,4 +844,10 @@
     font-size: 1rem;
     margin-top: 30px;
   }
+}.u-section-3 .u-sheet-1 {
+  min-height: 10px;
+}
+
+.u-section-3 .u-custom-html-1 {
+  margin-bottom: 10px;
 }
