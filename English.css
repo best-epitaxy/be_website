@@ -138,28 +138,28 @@
 }
 
 .u-section-2 .u-text-1 {
-  margin: 130px 0 0;
+  font-weight: 700;
+  font-size: 2.25rem;
+  margin: 0;
 }
 
 .u-section-2 .u-text-2 {
-  font-size: 3.75rem;
-  margin: 8px 0 0;
+  font-size: 1.25rem;
+  margin: 20px 0 0;
 }
 
-.u-section-2 .u-text-3 {
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-}
-
-.u-section-2 .u-image-1 {
+.u-section-2 .u-layout-cell-2 {
   min-height: 657px;
-  background-image: url("images/ofc23_exhibitor_1080x1080.jpg");
-  background-position: 50% 50%;
 }
 
 .u-section-2 .u-container-layout-2 {
   padding: 30px;
+}
+
+.u-section-2 .u-image-1 {
+  height: 181px;
+  width: 432px;
+  margin: 0 auto;
 }
 
 @media (max-width: 1199px) {
@@ -175,9 +175,14 @@
     min-height: 646px;
   }
 
-  .u-section-2 .u-image-1 {
+  .u-section-2 .u-layout-cell-2 {
     background-position: 7.36% 50%;
     min-height: 462px;
+  }
+
+  .u-section-2 .u-image-1 {
+    height: 165px;
+    width: 394px;
   }
 }
 
@@ -198,12 +203,13 @@
     padding: 30px;
   }
 
-  .u-section-2 .u-text-2 {
-    font-size: 3rem;
+  .u-section-2 .u-layout-cell-2 {
+    min-height: 354px;
   }
 
   .u-section-2 .u-image-1 {
-    min-height: 354px;
+    height: 121px;
+    width: 288px;
   }
 }
 
@@ -221,7 +227,7 @@
     padding-right: 10px;
   }
 
-  .u-section-2 .u-image-1 {
+  .u-section-2 .u-layout-cell-2 {
     min-height: 549px;
   }
 
@@ -240,26 +246,7 @@
     width: 290px;
   }
 
-  .u-section-2 .u-layout-cell-1 {
-    min-height: 440px;
-  }
-
-  .u-section-2 .u-text-1 {
-    width: auto;
-    margin-top: 0;
-  }
-
-  .u-section-2 .u-text-2 {
-    font-size: 2.25rem;
-    width: auto;
-  }
-
-  .u-section-2 .u-text-3 {
-    width: auto;
-    margin-top: 20px;
-  }
-
-  .u-section-2 .u-image-1 {
+  .u-section-2 .u-layout-cell-2 {
     min-height: 346px;
   }
 }.u-section-3 .u-sheet-1 {
