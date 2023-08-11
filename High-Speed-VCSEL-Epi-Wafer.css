@@ -185,7 +185,6 @@
   }
 
   .u-section-1 .u-list-1 {
-    margin-top: 20px;
     margin-right: calc(((100% - 720px) / 2));
   }
 
@@ -227,17 +226,16 @@
 
 @media (max-width: 767px) {
    .u-section-1 {
-    min-height: 287px;
+    min-height: 286px;
   }
 
   .u-section-1 .u-image-2 {
     width: 540px;
-    height: 63px;
+    height: 62px;
     margin-left: calc(((100% - 540px) / 2));
   }
 
   .u-section-1 .u-group-1 {
-    margin-top: 20px;
     margin-left: calc(((100% - 540px) / 2));
   }
 
@@ -253,19 +251,19 @@
 
 @media (max-width: 575px) {
    .u-section-1 {
-    min-height: 577px;
+    min-height: 581px;
   }
 
   .u-section-1 .u-image-2 {
     width: 340px;
-    height: 40px;
-    margin-top: -75px;
+    height: 39px;
+    margin-top: -74px;
     margin-left: auto;
   }
 
   .u-section-1 .u-group-1 {
-    margin-top: 35px;
-    margin-left: calc(((100% - 340px) / 2));
+    margin-top: 34px;
+    margin-left: calc(((100% - 340px) / 2) + -1px);
   }
 
   .u-section-1 .u-text-1 {
@@ -274,8 +272,9 @@
 
   .u-section-1 .u-list-1 {
     width: 340px;
-    margin-top: -8px;
-    margin-right: calc(((100% - 340px) / 2));
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 2px;
   }
 
   .u-section-1 .u-repeater-1 {
@@ -645,7 +644,7 @@
 }
 
 .u-section-4 .u-sheet-1 {
-  min-height: 667px;
+  min-height: 669px;
 }
 
 .u-section-4 .u-text-1 {
@@ -948,5 +947,221 @@
     margin-right: initial;
     margin-left: initial;
     width: auto;
+  }
+} .u-section-5 {
+  background-image: none;
+}
+
+.u-section-5 .u-sheet-1 {
+  min-height: 497px;
+}
+
+.u-section-5 .u-image-1 {
+  width: 570px;
+  height: 66px;
+  margin: 45px auto 0;
+}
+
+.u-section-5 .u-text-1 {
+  background-image: none;
+  font-family: "Noto Serif TC";
+  margin: 36px 85px 0;
+}
+
+.u-section-5 .u-group-1 {
+  width: 694px;
+  min-height: 225px;
+  margin: 34px auto 0;
+}
+
+.u-section-5 .u-text-2 {
+  font-size: 1.5rem;
+  font-family: "Noto Serif TC";
+  text-align: left;
+  font-weight: normal;
+  margin: 0 -11px 0 415px;
+}
+
+.u-section-5 .u-text-3 {
+  font-family: "Noto Serif TC";
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: left;
+  margin: -38px 567px 0 7px;
+}
+
+.u-section-5 .u-text-4 {
+  font-size: 1rem;
+  text-align: left;
+  margin: 4px 416px 0 12px;
+}
+
+.u-section-5 .u-icon-1 {
+  color: currentcolor !important;
+}
+
+.u-section-5 .u-icon-2 {
+  color: rgb(255, 255, 255) !important;
+}
+
+.u-section-5 .u-icon-4 {
+  color: rgb(255, 255, 255) !important;
+  width: 16px;
+  height: 22px;
+}
+
+.u-section-5 .u-btn-1 {
+  background-image: none;
+  padding: 0;
+}
+
+.u-section-5 .u-text-5 {
+  font-size: 1rem;
+  text-align: left;
+  margin: -155px 12px 0 415px;
+}
+
+.u-section-5 .u-icon-5 {
+  color: currentcolor !important;
+}
+
+.u-section-5 .u-icon-6 {
+  color: rgb(255, 255, 255) !important;
+}
+
+.u-section-5 .u-icon-8 {
+  color: rgb(255, 255, 255) !important;
+  width: 16px;
+  height: 22px;
+}
+
+.u-section-5 .u-btn-2 {
+  background-image: none;
+  padding: 0;
+}
+
+.u-section-5 .u-line-1 {
+  width: 912px;
+  height: 3px;
+  margin: 32px auto 0;
+}
+
+.u-section-5 .u-text-6 {
+  font-family: "Noto Sans TC Regular";
+  margin: 29px auto 27px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-5 .u-text-1 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-5 .u-line-1 {
+    width: 720px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-5 .u-sheet-1 {
+    min-height: 493px;
+  }
+
+  .u-section-5 .u-image-1 {
+    width: 540px;
+    height: 62px;
+  }
+
+  .u-section-5 .u-group-1 {
+    width: 540px;
+  }
+
+  .u-section-5 .u-text-2 {
+    margin-left: 338px;
+  }
+
+  .u-section-5 .u-text-3 {
+    margin-right: 420px;
+    margin-left: 0;
+  }
+
+  .u-section-5 .u-text-4 {
+    margin-right: 274px;
+    margin-left: 0;
+  }
+
+  .u-section-5 .u-text-5 {
+    margin-right: 0;
+    margin-left: 273px;
+  }
+
+  .u-section-5 .u-line-1 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-5 .u-sheet-1 {
+    min-height: 765px;
+  }
+
+  .u-section-5 .u-image-1 {
+    height: 39px;
+    margin-top: 44px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+
+  .u-section-5 .u-text-1 {
+    margin-top: 37px;
+  }
+
+  .u-section-5 .u-group-1 {
+    margin-top: 21px;
+    min-height: 452px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+
+  .u-section-5 .u-text-2 {
+    width: auto;
+    margin-top: 246px;
+    margin-right: 178px;
+    margin-left: 49px;
+  }
+
+  .u-section-5 .u-text-3 {
+    width: auto;
+    margin-top: -273px;
+    margin-right: 0;
+    margin-left: 49px;
+  }
+
+  .u-section-5 .u-text-4 {
+    width: auto;
+    margin-top: 10px;
+    margin-right: 0;
+    margin-left: 49px;
+  }
+
+  .u-section-5 .u-text-5 {
+    margin-top: 77px;
+    margin-left: 49px;
+  }
+
+  .u-section-5 .u-line-1 {
+    margin-top: 45px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+
+  .u-section-5 .u-text-6 {
+    width: auto;
+    margin-left: 0;
   }
 }
