@@ -1,6 +1,6 @@
  .u-section-1 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("images/pic_1.jpg");
-  background-position: 50% 50%;
+  background-position: 49.11% 50%;
 }
 
 .u-section-1 .u-sheet-1 {
@@ -118,14 +118,14 @@
     margin-bottom: 40px;
   }
 }.u-section-2 .u-sheet-1 {
-  min-height: 590px;
+  min-height: 504px;
 }
 
 .u-section-2 .u-group-1 {
   width: 400px;
-  min-height: 544px;
+  min-height: 484px;
   height: auto;
-  margin: 23px auto 0 0;
+  margin: 10px auto 0 0;
 }
 
 .u-section-2 .u-container-layout-1 {
@@ -154,7 +154,7 @@
 .u-section-2 .u-text-1 {
   font-size: 3.75rem;
   font-weight: 700;
-  margin: -530px 0 0 570px;
+  margin: -482px 0 0 570px;
 }
 
 .u-section-2 .u-text-2 {
@@ -165,7 +165,7 @@
 
 .u-section-2 .u-text-3 {
   font-size: 1.5rem;
-  margin: 37px 0 60px 570px;
+  margin: 30px 0 60px 570px;
 }
 
 @media (max-width: 1199px) {
