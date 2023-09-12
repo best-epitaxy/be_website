@@ -1,9 +1,2 @@
 
-images/cioe-logo-web copy.jpg
-.vs/VSWorkspaceState.json
-.vs/slnx.sqlite
-.vs/ProjectSettings.json
-.vs/be_website/v17/.wsuo
-.vs/be_website/FileContentIndex/read.lock
-.vs/be_website/FileContentIndex/103bd8e5-91d1-4c00-b808-c49e4dac4d90.vsidx
-.vs/be_website/config/applicationhost.config
+.vs/*
