@@ -464,8 +464,28 @@
     padding-right: 10px;
   }
 }
-
+.ofc-image-container {
+  background-image: url('./images/ofc24.png');
+  background-size: cover;
+  width: 1145px;
+  min-height: 400px; /* 可以設定一個適當的高度 */
+}
+.rwd-ofc-text{
+  display: none;
+}
 @media (max-width: 575px) {
+  .ofc-image-container {
+    background-image: url('./images/ofc24_small.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width:417px;
+    min-height: 200px;
+    /* 調整width和height以適應小圖片的尺寸 */
+  }
+  .rwd-ofc-text{
+    display: block;
+  }
   .u-section-2 .u-sheet-1 {
     min-height: 2759px;
   }
