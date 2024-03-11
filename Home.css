@@ -247,12 +247,16 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    max-width:417px;
+    max-width:370px;
     min-height: 200px;
     /* 調整width和height以適應小圖片的尺寸 */
   }
   .rwd-ofc-text{
     display: block;
+  }
+  .u-clearfix .u-sheet{
+    position: relative;
+    margin: 0 0;
   }
   .u-section-2 .u-sheet-1 {
     min-height: 446px;

@@ -7211,7 +7211,7 @@ section.u-image:not(.u-hover-box),
 }
 .u-sheet {
   position: relative;
-  margin: 0 auto;
+  margin: 0 0;
 }
 .u-xl-mode .u-sheet {
   width: var(--theme-sheet-width-xl);
