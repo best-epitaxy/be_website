@@ -7211,7 +7211,7 @@ section.u-image:not(.u-hover-box),
 }
 .u-sheet {
   position: relative;
-  margin: 0 0;
+  margin: 0 auto;
 }
 .u-xl-mode .u-sheet {
   width: var(--theme-sheet-width-xl);
@@ -7237,6 +7237,10 @@ section.u-image:not(.u-hover-box),
 @media (min-width: 992px) and (max-width: 1199px) {
   .u-sheet {
     width: var(--theme-sheet-width-lg) !important;
+  }
+  .u-sheet {
+    position: relative;
+    margin: 0 0;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
