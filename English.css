@@ -464,6 +464,12 @@
     padding-right: 10px;
   }
 }
+.ieee-image-container {
+  background-image: url('./images/ieee_silicon_photonics24.jpg');
+  background-size: cover;
+  width: 1145px;
+  min-height: 300px; /* 可以設定一個適當的高度 */
+}
 .ofc-image-container {
   background-image: url('./images/ofc24.png');
   background-size: cover;
@@ -474,6 +480,15 @@
   display: none;
 }
 @media (max-width: 575px) {
+  .ieee-image-container {
+    background-image: url('./images/SiPhotonics2024_small.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width:370px;
+    min-height: 200px;
+    /* 調整width和height以適應小圖片的尺寸 */
+  }
   .ofc-image-container {
     background-image: url('./images/ofc24_small.png');
     background-size: cover;
