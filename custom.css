@@ -7,6 +7,14 @@
     font-size: 2.75rem !important;
     font-weight: 600;
 }
+.conf-place-white{
+    font-size: 2.45rem !important;
+    font-weight: 600;
+    background-color: #012954; /* 深藍色背景 */
+    color: white; /* 白色文字 */
+    padding: 0px; /* 添加一些內邊距使文字不會太貼近邊框 */
+    margin:0px;
+}
 .conf-us{
     color:#665280;
     font-size: 3.75rem !important;
@@ -22,6 +30,13 @@
     .conf-place{
         font-size: 1.45rem !important;
         font-weight: 600;
+    }
+    .conf-place-white{
+        font-size: 1.45rem !important;
+        font-weight: 600;
+        background-color: #012954; /* 深藍色背景 */
+        color: white; /* 白色文字 */
+        padding: 10px; /* 添加一些內邊距使文字不會太貼近邊框 */
     }
     .conf-us{
         color:#665280;
