@@ -15,7 +15,18 @@
             overflow: hidden;
         }
 
+        .pdf-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
         iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
             width: 100%;
             height: 100%;
             border: none;
@@ -24,7 +35,9 @@
 </head>
 
 <body>
-    <iframe src="./best_product_list.pdf"></iframe>
+    <div class="pdf-container">
+        <iframe src="./best_product_list.pdf"></iframe>
+    </div>
 </body>
 
 </html>
