@@ -51,6 +51,7 @@
   <meta property="og:type" content="website">
   <meta data-intl-tel-input-cdn-path="intlTelInput/">
   <script>
+    // 讀取Product 分類module
     class MyModule extends HTMLElement {
       connectedCallback() {
         fetch("./product-cat.html")
@@ -58,10 +59,22 @@
           .then(html => {
             this.innerHTML = html;
           })
-          .catch(error => console.error('Failed to load HTML content:', error));
+          .catch(error => console.error('Failed to load product-cat HTML content:', error));
       }
     }
     customElements.define('product-cat', MyModule);
+
+    class MyMenu extends HTMLElement {
+      connectedCallback() {
+        fetch("./product-menu.html")
+          .then(response => response.text())
+          .then(html => {
+            this.innerHTML = html;
+          })
+          .catch(error => console.error('Failed to load product-menu HTML content:', error));
+      }
+    }
+    customElements.define('product-menu', MyMenu);
   </script>
 </head>
 
@@ -135,7 +148,8 @@
                 </ul>
               </div>
             </li>
-            <li class="u-nav-item"><a
+            <product-menu></product-menu>
+            <!-- <li class="u-nav-item"><a
                 class="u-border-2 u-border-active-grey-30 u-border-grey-30 u-border-hover-grey-30 u-border-no-bottom u-border-no-left u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-palette-1-base"
                 href="Product.html"
                 data-lang-en="{&quot;content&quot;:&quot;Product&quot;,&quot;href&quot;:&quot;Product.html&quot;}"
@@ -169,7 +183,7 @@
                   </li>
                 </ul>
               </div>
-            </li>
+            </li> -->
             <li class="u-nav-item"><a
                 class="u-border-2 u-border-active-grey-30 u-border-grey-30 u-border-hover-grey-30 u-border-no-bottom u-border-no-left u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-palette-1-base"
                 href="About.html"

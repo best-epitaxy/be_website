@@ -49,6 +49,19 @@
   <meta property="og:description" content="bEMC - ​High Power VCSEL Epi Wafer">
   <meta property="og:type" content="website">
   <meta data-intl-tel-input-cdn-path="intlTelInput/">
+  <script>
+    class MyModule extends HTMLElement {
+      connectedCallback() {
+        fetch("./product-cat.html")
+          .then(response => response.text())
+          .then(html => {
+            this.innerHTML = html;
+          })
+          .catch(error => console.error('Failed to load HTML content:', error));
+      }
+    }
+    customElements.define('product-cat', MyModule);
+  </script>
 </head>
 
 <body class="u-body u-xl-mode" data-lang="en"><!-- Google Tag Manager (noscript) -->
@@ -239,64 +252,7 @@
       </a>
     </div>
   </header>
-  <section
-    class="u-align-center-xl u-align-left-lg u-align-left-md u-align-left-sm u-align-left-xs u-clearfix u-section-1"
-    id="sec-5055">
-    <img class="u-expanded-width u-image u-image-default u-image-1" src="images/pic_1.jpg" alt=""
-      data-image-width="1600" data-image-height="800" data-lang-en="">
-    <img class="u-image u-image-default u-image-2" src="images/bEMC_white_Logo_v3.png" alt="" data-image-width="3846"
-      data-image-height="444" data-lang-en="">
-    <div
-      class="u-align-left u-border-20 u-border-custom-color-5 u-border-no-bottom u-border-no-right u-border-no-top u-container-style u-group u-group-1">
-      <div class="u-container-layout u-container-layout-1">
-        <h3 class="u-custom-font u-font-montserrat u-text u-text-1">Our Product</h3>
-      </div>
-    </div>
-    <div class="u-list u-list-1">
-      <div class="u-repeater u-repeater-1">
-        <div
-          class="u-align-center u-container-style u-custom-item u-grey-5 u-list-item u-repeater-item u-shape-rectangle u-list-item-1">
-          <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2">
-            <h5 class="u-custom-item u-text u-text-default u-text-2">High Power VCSEL Epi Wafer</h5>
-          </div>
-        </div>
-        <div
-          class="u-align-center u-container-style u-custom-item u-list-item u-repeater-item u-shape-rectangle u-list-item-2"
-          data-href="High-Speed-VCSEL-Epi-Wafer.html">
-          <div class="u-container-layout u-similar-container u-valign-top u-container-layout-3">
-            <h5 class="u-custom-item u-text u-text-default u-text-3"> High Speed VCSEL Epi Wafer</h5>
-          </div>
-        </div>
-        <div
-          class="u-align-center u-container-style u-custom-item u-list-item u-repeater-item u-shape-rectangle u-list-item-3"
-          data-href="High-Power-EEL-Epi-Wafer.html">
-          <div class="u-container-layout u-similar-container u-valign-top u-container-layout-4">
-            <h5 class="u-custom-item u-text u-text-default u-text-4"> High Power EEL Epi Wafer</h5>
-          </div>
-        </div>
-        <div
-          class="u-align-center u-container-style u-custom-item u-list-item u-repeater-item u-shape-rectangle u-list-item-4"
-          data-href="High-Speed-PD-Epi-Wafer.html">
-          <div class="u-container-layout u-similar-container u-valign-top u-container-layout-5">
-            <h5 class="u-custom-item u-text u-text-default u-text-5"> High Speed PD Epi Wafer</h5>
-          </div>
-        </div>
-        <div
-          class="u-align-center u-container-style u-custom-item u-list-item u-repeater-item u-shape-rectangle u-list-item-5"
-          data-href="High-Power-LED-Epi-Wafer.html">
-          <div class="u-container-layout u-similar-container u-valign-top u-container-layout-6">
-            <h5 class="u-custom-item u-text u-text-default u-text-6"> High Power LED Epi Wafer</h5>
-          </div>
-        </div>
-        <div
-          class="u-align-center u-container-style u-custom-item u-list-item u-repeater-item u-shape-rectangle u-list-item-6">
-          <div class="u-container-layout u-similar-container u-valign-top u-container-layout-7">
-            <h5 class="u-custom-item u-text u-text-default u-text-7"> Customized Epi Wafer</h5>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  <product-cat></product-cat>
   <section class="u-align-left u-clearfix u-grey-5 u-section-2" id="sec-c3e3">
     <div class="u-clearfix u-sheet u-sheet-1">
       <h2 class="u-text u-text-1"> We also provide foundry service of customerized epitaxy wafers.</h2>
