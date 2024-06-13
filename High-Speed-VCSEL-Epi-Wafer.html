@@ -47,6 +47,17 @@
   <meta property="og:description" content="bEMC - ​High Speed VCSEL Epi Wafer">
   <meta property="og:type" content="website">
   <meta data-intl-tel-input-cdn-path="intlTelInput/">
+  <!-- load menu module and so on...-->
+  <script type="text/javascript">
+    const script = document.createElement('script');
+    script.className = 'u-script';
+    script.type = 'text/javascript';
+    script.src = 'dynamic.js?timestamp=' + new Date().getTime();
+    script.defer = true;
+    script.onload = () => console.log("Script loaded and executed.");
+    script.onerror = () => console.error("Failed to load the script.");
+    document.head.appendChild(script);
+  </script>
   <script>
     class MyModule extends HTMLElement {
       connectedCallback() {
@@ -67,7 +78,8 @@
       style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
   <header class="u-clearfix u-grey-10 u-header u-header" id="sec-abe6">
-    <div class="u-clearfix u-sheet u-sheet-1">
+    <my-menu></my-menu>
+    <!-- <div class="u-clearfix u-sheet u-sheet-1">
       <nav class="u-align-right u-dropdown-icon u-menu u-menu-dropdown u-offcanvas u-menu-1" data-responsive-from="MD"
         data-position="hMenu">
         <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px; font-weight: 700;">
@@ -248,7 +260,7 @@
       <a href="#" class="u-image u-logo u-image-1" src="">
         <img src="images/475a6781709b38541727c594fd9d2418.png" class="u-logo-image u-logo-image-1">
       </a>
-    </div>
+    </div> -->
   </header>
   <product-cat></product-cat>
   <!-- <section
