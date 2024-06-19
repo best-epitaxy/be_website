@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bEMC Product List</title>
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .pdf-container {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .pdf-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        /* 調整手機視窗 */
+        @media (max-width: 768px) {
+            .pdf-container {
+                height: calc(100vh - 20px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        bEMC Product List
+    </h1>
+    <div class="pdf-container">
+        <iframe src="../src/best_product_list.pdf"></iframe>
+    </div>
+</body>
+
+</html>
