@@ -15,22 +15,19 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            overflow: hidden;
-            /* 隱藏 body 的滾動條 */
+            overflow: auto;
+            /* 允許 body 滾動 */
         }
 
         .image-gallery {
-            display: grid;
-            grid-template-columns: 1fr;
+            display: flex;
+            flex-direction: column;
             gap: 10px;
-            width: 90%;
+            width: 100%;
             max-width: 800px;
-            height: 100vh;
-            overflow-y: auto;
-            /* 垂直滾動 */
             padding: 10px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
             background-color: #fff;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
 
         .image-gallery img {
@@ -38,11 +35,20 @@
             height: auto;
             border: 2px solid #ccc;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            /* 添加手型指針以提示用戶可以點擊 */
+            transition: transform 0.25s ease;
+            /* 添加平滑的縮放過渡效果 */
+        }
+
+        .image-gallery img:active {
+            transform: scale(2);
+            /* 點擊時放大圖片 */
         }
 
         @media (max-width: 768px) {
             .image-gallery {
-                width: 100%;
+                max-width: 100%;
             }
         }
     </style>
