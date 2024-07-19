@@ -71,6 +71,14 @@
     <meta name="theme-color" content="#ff5126">
     <meta property="og:type" content="website">
     <meta data-intl-tel-input-cdn-path="intlTelInput/">
+    <style>
+        .fix-z-index {
+            position: relative;
+            /* 或 absolute/fixed */
+            z-index: 9999;
+            /* 確保這個值大於其他元素的 z-index 值 */
+        }
+    </style>
 </head>
 
 <body class="u-body u-overlap u-xl-mode" data-lang="en"
