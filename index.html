@@ -49,11 +49,20 @@
     </script>
     <script>
         class MyModule extends HTMLElement {
+            constructor() {
+                super();
+                // 附加 Shadow DOM
+                this.attachShadow({ mode: 'open' });
+            }
             connectedCallback() {
-                fetch("./exhibition/exhibition-info.html")
+                fetch("./exhibition/exhibition-info2025.html")
                     .then(response => response.text())
                     .then(html => {
-                        this.innerHTML = html;
+                        // 將 HTML 加入 Shadow DOM
+                        this.shadowRoot.innerHTML = `
+                    
+                    ${html}
+                `;
                     })
                     .catch(error => console.error('Failed to load HTML content:', error));
             }
@@ -194,7 +203,7 @@
             </div>
         </div>
     </section>
-    <!-- <exhibition-info></exhibition-info> -->
+    <exhibition-info></exhibition-info>
     <!-- <section class="" id="">
         <div class="u-clearfix u-sheet u-sheet-1">
             <div class="">
